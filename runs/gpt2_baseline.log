@@ -1,0 +1,77 @@
+nohup: ignoring input
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (2417786 > 1024). Running this sequence through the model will result in indexing errors
+baseline: 17,021,648 params, vocab 50,257, 2,417,786 train tokens, device cuda
+step     0  loss 10.8702  lr 1.00e-05
+step    50  loss 7.9927  lr 5.10e-04
+step   100  loss 6.7676  lr 9.98e-04
+step   150  loss 6.3368  lr 9.94e-04
+step   200  loss 6.0423  lr 9.90e-04
+  >> step 250  val ppl 425.41
+step   250  loss 6.0753  lr 9.85e-04
+step   300  loss 5.5102  lr 9.78e-04
+step   350  loss 5.4900  lr 9.70e-04
+step   400  loss 5.4057  lr 9.61e-04
+step   450  loss 5.5050  lr 9.51e-04
+  >> step 500  val ppl 282.02
+step   500  loss 5.0813  lr 9.40e-04
+step   550  loss 5.0685  lr 9.27e-04
+step   600  loss 5.5494  lr 9.14e-04
+step   650  loss 5.1238  lr 9.00e-04
+step   700  loss 4.9573  lr 8.84e-04
+  >> step 750  val ppl 230.38
+step   750  loss 4.9935  lr 8.68e-04
+step   800  loss 5.0222  lr 8.51e-04
+step   850  loss 4.9099  lr 8.33e-04
+step   900  loss 4.4814  lr 8.15e-04
+step   950  loss 4.6747  lr 7.95e-04
+  >> step 1000  val ppl 208.05
+step  1000  loss 4.6591  lr 7.75e-04
+step  1050  loss 5.0148  lr 7.54e-04
+step  1100  loss 4.8070  lr 7.33e-04
+step  1150  loss 4.8639  lr 7.11e-04
+step  1200  loss 4.7364  lr 6.89e-04
+  >> step 1250  val ppl 190.58
+step  1250  loss 4.5970  lr 6.66e-04
+step  1300  loss 4.3645  lr 6.44e-04
+step  1350  loss 4.4771  lr 6.20e-04
+step  1400  loss 4.5836  lr 5.97e-04
+step  1450  loss 4.5443  lr 5.74e-04
+  >> step 1500  val ppl 178.81
+step  1500  loss 4.5711  lr 5.50e-04
+step  1550  loss 4.3238  lr 5.26e-04
+step  1600  loss 4.1185  lr 5.03e-04
+step  1650  loss 4.3859  lr 4.80e-04
+step  1700  loss 4.2884  lr 4.56e-04
+  >> step 1750  val ppl 174.24
+step  1750  loss 4.3634  lr 4.34e-04
+step  1800  loss 4.3744  lr 4.11e-04
+step  1850  loss 4.4665  lr 3.89e-04
+step  1900  loss 4.0796  lr 3.67e-04
+step  1950  loss 4.1639  lr 3.46e-04
+  >> step 2000  val ppl 170.72
+step  2000  loss 3.8954  lr 3.25e-04
+step  2050  loss 4.5225  lr 3.05e-04
+step  2100  loss 4.1979  lr 2.85e-04
+step  2150  loss 4.1158  lr 2.67e-04
+step  2200  loss 4.0744  lr 2.49e-04
+  >> step 2250  val ppl 168.04
+step  2250  loss 4.3435  lr 2.32e-04
+step  2300  loss 4.1051  lr 2.16e-04
+step  2350  loss 4.3142  lr 2.00e-04
+step  2400  loss 3.9438  lr 1.86e-04
+step  2450  loss 3.8879  lr 1.73e-04
+  >> step 2500  val ppl 168.87
+step  2500  loss 3.9702  lr 1.60e-04
+step  2550  loss 4.1160  lr 1.49e-04
+step  2600  loss 3.9728  lr 1.39e-04
+step  2650  loss 4.1039  lr 1.30e-04
+step  2700  loss 3.9178  lr 1.22e-04
+  >> step 2750  val ppl 167.08
+step  2750  loss 3.9507  lr 1.15e-04
+step  2800  loss 3.8945  lr 1.10e-04
+step  2850  loss 4.1311  lr 1.06e-04
+step  2900  loss 3.6019  lr 1.02e-04
+step  2950  loss 4.1040  lr 1.01e-04
+step  2999  loss 3.9260  lr 1.00e-04
+  >> step 3000  val ppl 167.68
+done: val ppl 167.68, 4.26 s/step, peak mem 10.745349407196045

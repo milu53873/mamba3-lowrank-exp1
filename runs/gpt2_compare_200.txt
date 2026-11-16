@@ -1,0 +1,3 @@
+﻿run                   params   val ppl   vs base  s/step
+baseline          17,021,648    759.33     +0.0%    4.37
+lowrank_r64       15,710,928    859.76    +13.2%    3.66

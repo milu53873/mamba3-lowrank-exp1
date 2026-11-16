@@ -1,0 +1,33 @@
+﻿== baseline   vocab=50,257   d_model=256   layers=5
+parameters                               count   share
+embedding (tied with LM head)       12,865,792   75.6%
+Mamba in_proj                        1,525,760    9.0%
+Mamba out_proj                         655,360    3.9%
+Mamba other (norms, biases, D)           5,840    0.0%
+SwiGLU MLP                           1,966,080   11.6%
+RMSNorm (block / final)                  2,816    0.0%
+TOTAL                               17,021,648
+
+multiplications / token (hand)           count   share
+LM head (d_model x vocab)           12,865,792   72.1%
+5 Mamba-3 blocks                     3,017,650   16.9%
+5 SwiGLU MLPs                        1,966,080   11.0%
+TOTAL                               17,849,522
+
+== low-rank r=64   vocab=50,257   d_model=256   layers=5
+parameters                               count   share
+embedding (tied with LM head)       12,865,792   81.9%
+Mamba in_proj                          624,640    4.0%
+Mamba out_proj                         245,760    1.6%
+Mamba other (norms, biases, D)           5,840    0.0%
+SwiGLU MLP                           1,966,080   12.5%
+RMSNorm (block / final)                  2,816    0.0%
+TOTAL                               15,710,928
+
+multiplications / token (hand)           count   share
+LM head (d_model x vocab)           12,865,792   77.8%
+5 Mamba-3 blocks                     1,706,930   10.3%
+5 SwiGLU MLPs                        1,966,080   11.9%
+TOTAL                               16,538,802
+
+low-rank vs baseline: parameters -7.7%,  multiplications/token -7.3%

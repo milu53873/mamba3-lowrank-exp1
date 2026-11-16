@@ -1,0 +1,26 @@
+{
+ "name": "baseline",
+ "variant": "baseline",
+ "rank": null,
+ "params": 17021648,
+ "steps": 200,
+ "bs": 4,
+ "seq": 256,
+ "lr": 0.001,
+ "seed": 0,
+ "sec_per_step": 4.372345232000255,
+ "final_val_ppl": 759.3332230240248,
+ "log": [
+  {
+   "step": 100,
+   "train_loss": 6.577551364898682,
+   "val_ppl": 949.104160613295
+  },
+  {
+   "step": 200,
+   "train_loss": 6.961162567138672,
+   "val_ppl": 759.3332230240248
+  }
+ ],
+ "peak_mem_gb": 2.8416805267333984
+}
